@@ -299,7 +299,8 @@
     <!-- Container (Contact Section) -->
     <div id="contact" class="container-fluid bg-grey">
         <h2 class="text-center">SUPORTE</h2>
-        <div class="row">
+        <br><button class="btn btn-default btn-lg" onclick.href=""><a href="https://magic-link.tomticket.com">Fazer Chamado</a></button>
+        <!--<div class="row">
             <div class="col-sm-5">
                 <p>Entre em contato conosco, e nós responderemos em até 24 horas.</p>
                 <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
@@ -321,7 +322,7 @@
                         <button class="btn btn-default pull-right" type="submit">Send</button>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 
