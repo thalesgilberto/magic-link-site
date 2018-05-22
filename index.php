@@ -32,6 +32,7 @@
                         <li><a href="#about">EMPRESA</a></li>
                         <li><a href="#portfolio">COBERTURA</a></li>
                         <li><a href="#pricing">PLANOS</a></li>
+                        <li><a href="login.php" target="_blank">BOLETOS</a></li>
                         <li><a href="https://magiclink.tomticket.com/?account=1422208P15052018075949" target="_blank">SUPORTE</a></li>
                     </ul>
                 </div>
