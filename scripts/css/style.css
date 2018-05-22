@@ -1,0 +1,7 @@
+.loader
+{
+    background: url(../../img/loading.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+}
