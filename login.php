@@ -26,12 +26,13 @@ session_start();
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="hold-transition login-page" style="background-color: black" >
+    <body class="hold-transition login-page" style="background-color: #ACB9C2" >
         <div class="login-box">
             <div class="login-logo">
                 <!--                <a href="#"><b>Magic</b> LINK</a>-->
                 <img src="imagens/logo_magic.png" style="height: 200px"/>
             </div>
+            <h3 style="text-align: center">Área do Cliente</h3>
             <!-- /.login-logo -->
             <div class="login-box-body">
                 <p class="login-box-msg">Faça login para iniciar sua sessão</p>
