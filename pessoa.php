@@ -1,4 +1,5 @@
 <?php
+
 require_once 'config.php';
 
 class Pessoa {
@@ -142,7 +143,8 @@ class Pessoa {
         $resultado = mysqli_query($link, $query);
         $dados = mysqli_fetch_array($resultado);
 
-
+        //var_dump($dados);
+        //exit();
         if (!empty($dados)) {
             $_SESSION['nome_cliente'] = $dados["nome"];
             $_SESSION['id_pessoa_cliente'] = $dados["id_pessoa"];
@@ -150,6 +152,7 @@ class Pessoa {
             $db->DBclose($link);
             return true;
         } else {
+            $_SESSION['login-erro'] = "Usuário ou senha estão incorretos!";
             $db->DBclose($link);
             return false;
         }
@@ -168,5 +171,4 @@ class Pessoa {
         return $dados;
     }
 
-    
 }
